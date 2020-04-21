@@ -1,0 +1,82 @@
+<resources>
+
+    <!-- Base application theme. -->
+    <style name="AppTheme" parent="Theme.AppCompat.Light.DarkActionBar">
+        <!-- Customize your theme here. -->
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+        <item name="colorAccent">@color/colorAccent</item>
+    </style>
+    <style name="defaultTextView" parent="@android:style/TextAppearance.Medium">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+    </style>
+    <style name="frag1Col" parent="backgroundDefault">
+        <item name="android:layout_marginBottom">1dp</item>
+        <item name="android:background">@drawable/tableborder</item>
+    </style>
+    <style name="backgroundDefault">
+        <item name="android:background">@color/white</item>
+    </style>
+    <style name="frag1TableLayout">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+    </style>
+
+    <style name="frag1HeaderTableRow" parent="frag1TableLayout"><!---->
+        <item name="android:layout_marginBottom">3dp</item>
+    </style>
+    <style name="frag2TableLayout">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:stretchColumns">*</item>
+        <item name="android:shrinkColumns">*</item>
+        <item name="android:layout_margin">5dp</item>
+        <item name="android:background">@color/lightGrey</item>
+        <item name="android:textSize">18dp</item>
+        <item name="android:textColor">@color/black</item>
+    </style>
+
+    <style name="WidgetProgressBarHorizontal">
+        <item name="android:indeterminateOnly">false</item>
+        <item name="android:progressDrawable">@android:drawable/progress_horizontal</item>
+        <item name="android:indeterminateDrawable">@android:drawable/progress_indeterminate_horizontal</item>
+        <item name="android:minHeight">25dip</item>
+        <item name="android:maxHeight">25dip</item>
+        <item name="android:minWidth">100dp</item>
+    </style>
+    <style name="contoure">
+        <item name="android:textStyle">bold</item>
+        <item name="android:shadowColor">@color/black</item>
+        <item name="android:color">@color/black</item>
+        <item name="android:shadowDx">0.5</item>
+        <item name="android:shadowDy">0.5</item>
+        <item name="android:shadowRadius">10</item>
+    </style>
+    <style name="titreActivity" parent="contoure">
+        <item name="android:textColor">@color/lightGrey</item>
+    </style>
+
+    <style name="editeText" parent="backgroundDefault">
+        <item name="android:gravity">center</item>
+        <item name="android:background">#CDF8F8F2</item>
+    </style>
+
+    <style name="button">
+        <item name="android:textColor">@color/white</item>
+        <item name="android:shape">rectangle</item>
+        <item name="android:background">#D7CCFF90</item>
+        <item name="android:layout_margin">3dp</item>
+    </style>
+    <style name="buttonLand" parent="button">
+        <item name="android:layout_margin">1dp</item>
+    </style>
+    <style name="text" parent="contoure">
+        <item name="android:textColor">@color/lightGrey</item>
+    </style>
+    <style name="erreur">
+        <item name="android:padding">5dp</item>
+    </style>
+    <style name="titreTab" parent="text">
+    </style>
+</resources>

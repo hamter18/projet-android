@@ -1,0 +1,12 @@
+<resources>
+    <string name="app_name">Reing rise </string>
+    <string name="btnJouer">Jouer </string>
+    <string name="reing_rise">Reing rise </string>
+    <string name="textViewsurname">Surname : </string>
+    <string name="textViewtypeJoueur">Dieu </string>
+    <string name="textViewTableauDesScores">Tableau Des Scores </string>
+    <string name="msgErreur">Vous devez rentrer un surname </string>
+    <string name="msgQuitter">Quitter </string>
+    <string name="Score">Score </string>
+    <string name="votreDomaine">Voici votre domaine : </string>
+</resources>
